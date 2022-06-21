@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" ?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets"/>
+  <PropertyGroup Label="UserMacros">
+    <TopObjDir>d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32</TopObjDir>
+    <TopSrcDir>d:\Projects\DanknetExplorer\dne2\platform</TopSrcDir>
+    <PYTHON>$(TopObjDir)\_virtualenv\Scripts\python.exe</PYTHON>
+    <MACH>$(TopSrcDir)\mach</MACH>
+    <DefaultIncludes>C:/PROGRA~2/MICROS~1.0/VC\include;C:/PROGRA~2/MICROS~1.0/VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:/PROGRA~2/MICROS~1.0/DIA SDK\include</DefaultIncludes>
+  </PropertyGroup>
+  <ItemGroup>
+    <BuildMacro Include="TopObjDir">
+      <Value>$(TopObjDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="TopSrcDir">
+      <Value>$(TopSrcDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="PYTHON">
+      <Value>$(PYTHON)</Value>
+    </BuildMacro>
+    <BuildMacro Include="MACH">
+      <Value>$(MACH)</Value>
+    </BuildMacro>
+    <BuildMacro Include="DefaultIncludes">
+      <Value>$(DefaultIncludes)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

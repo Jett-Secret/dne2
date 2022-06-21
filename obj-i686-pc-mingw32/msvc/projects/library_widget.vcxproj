@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>widget</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{32D39D28-00C3-5040-98BC-C2A2D51EDC26}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\widget;$(TopObjDir)\widget;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\ipc\ipdl\_ipdlheaders;d:\Projects\DanknetExplorer\dne2\platform\ipc\chromium\src;d:\Projects\DanknetExplorer\dne2\platform\ipc\glue;d:\Projects\DanknetExplorer\dne2\platform\dom\base;d:\Projects\DanknetExplorer\dne2\platform\dom\ipc;d:\Projects\DanknetExplorer\dne2\platform\layout\base;d:\Projects\DanknetExplorer\dne2\platform\layout\forms;d:\Projects\DanknetExplorer\dne2\platform\layout\generic;d:\Projects\DanknetExplorer\dne2\platform\layout\xul;d:\Projects\DanknetExplorer\dne2\platform\view;d:\Projects\DanknetExplorer\dne2\platform\widget;d:\Projects\DanknetExplorer\dne2\platform\widget\windows;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>WIN32_LEAN_AND_MEAN;MOZ_CROSS_PROCESS_IME;COMPILER_MSVC;NDEBUG=1;_WIN32;WIN32;TRIMMED=1;_CRT_RAND_S;MOZ_ENABLE_D3D10_LAYER;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;OS_WIN=1;_UNICODE;CHROMIUM_BUILD;U_STATIC_IMPLEMENTATION;UNICODE;_WINDOWS;_SECURE_ATL</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\widget\BasicEvents.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\CommandList.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\CompositorWidget.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\ContentCache.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\ContentEvents.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\EventClassList.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\EventForwards.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\EventMessageList.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\FontRange.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\GfxDriverInfo.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\GfxInfoBase.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\GfxInfoCollector.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\GfxInfoWebGL.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\GfxInfoX11.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\IMEData.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\InProcessCompositorWidget.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\InputData.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\LSBUtils.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\LookAndFeel.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\MiscEvents.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\MouseEvents.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\NativeKeyToDOMCodeName.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\NativeKeyToDOMKeyName.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\PluginWidgetProxy.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\PuppetBidiKeyboard.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\PuppetWidget.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\ScreenProxy.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\SystemTimeConverter.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\TextEventDispatcher.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\TextEventDispatcherListener.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\TextEvents.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\TextRange.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\TouchEvents.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\VsyncDispatcher.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\WidgetMessageUtils.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\WidgetTraceEvent.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\WidgetUtils.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\WindowSurface.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\WindowSurfaceX11SHM.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsAppShellSingleton.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsBaseAppShell.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsBaseClipboard.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsBaseDragService.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsBaseFilePicker.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsBaseScreen.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsBaseWidget.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsClipboardHelper.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsClipboardProxy.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsColorPickerProxy.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsDeviceContextSpecProxy.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsDragServiceProxy.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsFilePickerProxy.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsGUIEventIPC.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsHTMLFormatConverter.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsIDeviceContextSpec.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsIKeyEventInPluginCallback.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsINativeMenuService.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsIPluginWidget.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsIPrintDialogService.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsIRollupListener.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsIWidget.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsIWidgetListener.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsIdleService.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsNativeTheme.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsPrimitiveHelpers.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsPrintOptionsImpl.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsPrintSession.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsPrintSettingsImpl.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsScreenManagerProxy.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsShmImage.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsTransferable.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsWidgetInitData.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsWidgetsCID.h"/>
+    <ClInclude Include="$(TopSrcDir)\widget\nsXPLookAndFeel.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\CompositorWidget.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\ContentCache.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\GfxDriverInfo.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\GfxInfoBase.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\GfxInfoCollector.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\GfxInfoWebGL.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\InProcessCompositorWidget.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\InputData.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\PluginWidgetProxy.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\PuppetBidiKeyboard.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\PuppetWidget.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\ScreenProxy.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\SharedWidgetUtils.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\TextEventDispatcher.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\VsyncDispatcher.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\WidgetEventImpl.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\WidgetUtils.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsBaseAppShell.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsBaseClipboard.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsBaseDragService.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsBaseFilePicker.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsBaseScreen.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsBaseWidget.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsClipboardHelper.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsClipboardProxy.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsColorPickerProxy.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsContentProcessWidgetFactory.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsDeviceContextSpecProxy.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsDragServiceProxy.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsFilePickerProxy.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsHTMLFormatConverter.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsIWidgetListener.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsIdleService.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsNativeTheme.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsPrimitiveHelpers.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsPrintOptionsImpl.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsPrintSession.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsPrintSettingsImpl.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsScreenManagerProxy.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsTransferable.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\widget\nsXPLookAndFeel.cpp"/>
+  </ItemGroup>
+</Project>

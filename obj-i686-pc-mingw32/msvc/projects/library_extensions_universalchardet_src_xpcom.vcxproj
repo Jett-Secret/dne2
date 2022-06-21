@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>extensions_universalchardet_src_xpcom</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{5BDA21CB-CF9C-590C-A444-A66479876DA3}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\extensions\universalchardet\src\xpcom;$(TopObjDir)\extensions\universalchardet\src\xpcom;d:\Projects\DanknetExplorer\dne2\platform\extensions\universalchardet\src\base;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\extensions\universalchardet\src\xpcom\nsUdetXPCOMWrapper.h"/>
+    <ClInclude Include="$(TopSrcDir)\extensions\universalchardet\src\xpcom\nsUniversalCharDetDll.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\extensions\universalchardet\src\xpcom\nsUdetXPCOMWrapper.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\extensions\universalchardet\src\xpcom\nsUniversalCharDetModule.cpp"/>
+  </ItemGroup>
+</Project>

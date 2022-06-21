@@ -1,0 +1,11 @@
+prefix=d:/Projects/DanknetExplorer/dne2/obj-i686-pc-mingw32/dist
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SpiderMonkey 4.8.3
+Description: The Mozilla library for JavaScript
+Version: 4.8.3
+
+Libs: -L${libdir} -lmozjs
+Cflags: -include ${includedir}/mozjs/js/RequiredDefines.h -I${includedir}/mozjs

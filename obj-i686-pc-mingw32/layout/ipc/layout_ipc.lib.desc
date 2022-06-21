@@ -1,0 +1,1 @@
+OBJS = d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\layout\ipc\RenderFrameChild.obj d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\layout\ipc\RenderFrameParent.obj d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\layout\ipc\VsyncChild.obj d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\layout\ipc\VsyncParent.obj

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>dom_media_fmp4</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{3299A430-122F-5125-A2C3-365462FAA751}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\dom\media\fmp4;$(TopObjDir)\dom\media\fmp4;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\dom\media\fmp4\MP4Decoder.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\fmp4\MP4Demuxer.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\fmp4\MP4Stream.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\fmp4\MP4Decoder.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\fmp4\MP4Demuxer.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\fmp4\MP4Stream.cpp"/>
+  </ItemGroup>
+</Project>

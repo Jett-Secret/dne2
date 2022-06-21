@@ -1,0 +1,2 @@
+SkForceCPlusPlusLinking.obj: d:/Projects/DanknetExplorer/dne2/platform/gfx/skia/skia/src/core/SkForceCPlusPlusLinking.cpp d:/Projects/DanknetExplorer/dne2/obj-i686-pc-mingw32/mozilla-config.h d:/Projects/DanknetExplorer/dne2/obj-i686-pc-mingw32/dist/include/mozilla/Char16.h
+d:/Projects/DanknetExplorer/dne2/obj-i686-pc-mingw32/dist/include/mozilla/Char16.h d:/Projects/DanknetExplorer/dne2/obj-i686-pc-mingw32/mozilla-config.h d:/Projects/DanknetExplorer/dne2/platform/gfx/skia/skia/src/core/SkForceCPlusPlusLinking.cpp:

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>netwerk_socket</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{BECAD0F6-FF41-5955-8B5D-7F8EA958653B}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\netwerk\socket;$(TopObjDir)\netwerk\socket;d:\Projects\DanknetExplorer\dne2\platform\netwerk\base;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\netwerk\socket\nsNamedPipeIOLayer.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\socket\nsNamedPipeService.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\socket\nsSOCKSIOLayer.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\socket\nsSOCKSSocketProvider.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\socket\nsSocketProviderService.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\socket\nsUDPSocketProvider.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\socket\nsNamedPipeIOLayer.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\socket\nsNamedPipeService.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\socket\nsSOCKSIOLayer.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\socket\nsSOCKSSocketProvider.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\socket\nsSocketProviderService.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\socket\nsUDPSocketProvider.cpp"/>
+  </ItemGroup>
+</Project>

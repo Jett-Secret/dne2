@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>mozavcodec</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{81DA6A2F-EE31-5B6D-9D58-4BCAED2E7318}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\media\ffvpx\libavcodec;$(TopObjDir)\media\ffvpx\libavcodec;d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx;d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\compat\atomics\win32;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>HAVE_AV_CONFIG_H;NDEBUG=1;_USE_MATH_DEFINES;TRIMMED=1;inline=__inline</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\avcodec.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\blockdsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\bsf.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\bytestream.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\decode.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\error_resilience.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\fdctdsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\flac.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\flacdata.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\flacdsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\frame_thread_encoder.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\get_bits.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\golomb.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\h263dsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\h264chroma.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\h264dsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\h264pred.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\hpeldsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\hwaccel.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\hwaccels.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\idctdsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\internal.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\mathops.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\me_cmp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\motion_est.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\mpeg12data.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\mpegpicture.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\mpegutils.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\mpegvideo.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\mpegvideodata.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\mpegvideodsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\mpegvideoencdsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\options_table.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\parser.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\pixblockdsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\profiles.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\pthread_internal.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\put_bits.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\qpeldsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\ratecontrol.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\raw.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\rectangle.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\rl.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\rnd_avg.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\thread.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\unary.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\version.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\videodsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\vlc.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\vorbis_parser.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\vorbis_parser_internal.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\vp3dsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\vp56.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\vp56dsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\vp8.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\vp8data.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\vp8dsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\vp9.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\vp9data.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\vp9dec.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\vp9dsp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\vp9shared.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\ffvpx\libavcodec\xiph.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\allcodecs.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\avpacket.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\avpicture.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\bitstream.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\bitstream_filter.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\bitstream_filters.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\bsf.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\codec_desc.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\decode.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\dummy_funcs.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\flac.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\flac_parser.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\flacdata.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\flacdec.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\flacdsp.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\golomb.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\h264pred.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\imgconvert.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\log2_tab.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\mathtables.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\null_bsf.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\options.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\parser.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\profiles.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\pthread.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\pthread_frame.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\pthread_slice.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\qsv_api.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\raw.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\reverse.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\utils.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\videodsp.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vorbis_parser.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp56rac.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp8.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp8_parser.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp8dsp.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp9.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp9_parser.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp9_superframe_split_bsf.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp9block.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp9data.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp9dsp.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp9dsp_10bpp.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp9dsp_12bpp.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp9dsp_8bpp.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp9lpf.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp9mvs.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp9prob.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\vp9recon.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\ffvpx\libavcodec\xiph.c"/>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,50 @@
+override chrome://browser/skin/Toolbar.png chrome://browser/skin/Toolbar-win7.png os=WINNT osversion=6.1
+override chrome://browser/skin/Toolbar.png chrome://browser/skin/Toolbar-win8.png os=WINNT osversion=6.2
+override chrome://browser/skin/Toolbar.png chrome://browser/skin/Toolbar-win8.png os=WINNT osversion=6.3
+override chrome://browser/skin/Toolbar@2x.png chrome://browser/skin/Toolbar-win7@2x.png os=WINNT osversion=6.1
+override chrome://browser/skin/Toolbar@2x.png chrome://browser/skin/Toolbar-win8@2x.png os=WINNT osversion=6.2
+override chrome://browser/skin/Toolbar@2x.png chrome://browser/skin/Toolbar-win8@2x.png os=WINNT osversion=6.3
+override chrome://browser/skin/aboutSessionRestore-window-icon.png chrome://browser/skin/preferences/application.png os!=WINNT
+override chrome://browser/skin/actionicon-tab.png chrome://browser/skin/actionicon-tab-win7.png os=WINNT osversion<=6.1
+override chrome://browser/skin/downloads/download-glow-menuPanel.png chrome://browser/skin/downloads/download-glow-menuPanel-win7.png os=WINNT osversion<=6.1
+override chrome://browser/skin/feeds/audioFeedIcon.png chrome://browser/skin/feeds/feedIcon.png
+override chrome://browser/skin/feeds/audioFeedIcon16.png chrome://browser/skin/feeds/feedIcon16.png
+override chrome://browser/skin/feeds/videoFeedIcon.png chrome://browser/skin/feeds/feedIcon.png
+override chrome://browser/skin/feeds/videoFeedIcon16.png chrome://browser/skin/feeds/feedIcon16.png
+override chrome://browser/skin/page-livemarks.png chrome://browser/skin/feeds/feedIcon16.png
+override chrome://browser/skin/places/autocomplete-star.png chrome://browser/skin/places/autocomplete-star-win7.png os=WINNT osversion<=6.1
+override chrome://browser/skin/privatebrowsing-mask-tabstrip.png chrome://browser/skin/privatebrowsing-mask-tabstrip-win7.png os=WINNT osversion<=6.1
+override chrome://browser/skin/privatebrowsing-mask-titlebar.png chrome://browser/skin/privatebrowsing-mask-titlebar-win7.png os=WINNT osversion<=6.1
+override chrome://browser/skin/reload-stop-go.png chrome://browser/skin/reload-stop-go-win7.png os=WINNT osversion<=6.1
+override chrome://browser/skin/reload-stop-go@2x.png chrome://browser/skin/reload-stop-go-win7@2x.png os=WINNT osversion<=6.1
+override chrome://browser/skin/sync-horizontalbar.png chrome://browser/skin/sync-horizontalbar-win7.png os=WINNT osversion<=6.1
+override chrome://browser/skin/sync-horizontalbar@2x.png chrome://browser/skin/sync-horizontalbar-win7@2x.png os=WINNT osversion<=6.1
+override chrome://browser/skin/syncProgress-horizontalbar.png chrome://browser/skin/syncProgress-horizontalbar-win7.png os=WINNT osversion<=6.1
+override chrome://browser/skin/syncProgress-horizontalbar@2x.png chrome://browser/skin/syncProgress-horizontalbar-win7@2x.png os=WINNT osversion<=6.1
+override chrome://browser/skin/syncProgress-toolbar.png chrome://browser/skin/syncProgress-toolbar-win7.png os=WINNT osversion<=6.1
+override chrome://browser/skin/syncProgress-toolbar@2x.png chrome://browser/skin/syncProgress-toolbar-win7@2x.png os=WINNT osversion<=6.1
+override chrome://browser/skin/tabbrowser/newtab-inverted.svg chrome://browser/skin/tabbrowser/newtab-inverted-win7.svg os=WINNT osversion<=6.1
+override chrome://browser/skin/tabbrowser/newtab.svg chrome://browser/skin/tabbrowser/newtab-win7.svg os=WINNT osversion<=6.1
+override chrome://browser/skin/tabbrowser/tab-arrow-left.svg chrome://browser/skin/tabbrowser/tab-arrow-left-win7.svg os=WINNT osversion<=6.1
+override chrome://browser/skin/tabbrowser/tab-background-end.png chrome://browser/skin/tabbrowser/tab-background-end-preWin10.png os=WINNT osversion<=6.3
+override chrome://browser/skin/tabbrowser/tab-background-end@2x.png chrome://browser/skin/tabbrowser/tab-background-end-preWin10@2x.png os=WINNT osversion<=6.3
+override chrome://browser/skin/tabbrowser/tab-background-middle.png chrome://browser/skin/tabbrowser/tab-background-middle-preWin10.png os=WINNT osversion<=6.3
+override chrome://browser/skin/tabbrowser/tab-background-middle@2x.png chrome://browser/skin/tabbrowser/tab-background-middle-preWin10@2x.png os=WINNT osversion<=6.3
+override chrome://browser/skin/tabbrowser/tab-background-start.png chrome://browser/skin/tabbrowser/tab-background-start-preWin10.png os=WINNT osversion<=6.3
+override chrome://browser/skin/tabbrowser/tab-background-start@2x.png chrome://browser/skin/tabbrowser/tab-background-start-preWin10@2x.png os=WINNT osversion<=6.3
+override chrome://browser/skin/toolbarbutton-dropdown-arrow.png chrome://browser/skin/toolbarbutton-dropdown-arrow-win7.png os=WINNT osversion<=6.1
+override chrome://browser/skin/urlbar-history-dropmarker.png chrome://browser/skin/urlbar-history-dropmarker-win7.png os=WINNT osversion<=6.1
+override chrome://browser/skin/urlbar-history-dropmarker@2x.png chrome://browser/skin/urlbar-history-dropmarker-win7@2x.png os=WINNT osversion<=6.1
+override chrome://global/skin/icons/close-inverted.png chrome://global/skin/icons/close-inverted-win7.png osversion<=6.1
+override chrome://global/skin/icons/close-inverted@2x.png chrome://global/skin/icons/close-inverted-win7@2x.png osversion<=6.1
+override chrome://global/skin/icons/close.png chrome://global/skin/icons/close-win7.png osversion<=6.1
+override chrome://global/skin/icons/close@2x.png chrome://global/skin/icons/close-win7@2x.png osversion<=6.1
+override chrome://global/skin/tree/twisty.svg#clsd chrome://global/skin/tree/twisty-preWin10.svg#clsd osversion<=6.3
+override chrome://global/skin/tree/twisty.svg#clsd-hover chrome://global/skin/tree/twisty-preWin10.svg#clsd-hover osversion<=6.3
+override chrome://global/skin/tree/twisty.svg#clsd-hover-rtl chrome://global/skin/tree/twisty-preWin10.svg#clsd-hover-rtl osversion<=6.3
+override chrome://global/skin/tree/twisty.svg#clsd-rtl chrome://global/skin/tree/twisty-preWin10.svg#clsd-rtl osversion<=6.3
+override chrome://global/skin/tree/twisty.svg#open chrome://global/skin/tree/twisty-preWin10.svg#open osversion<=6.3
+override chrome://global/skin/tree/twisty.svg#open-hover chrome://global/skin/tree/twisty-preWin10.svg#open-hover osversion<=6.3
+override chrome://global/skin/tree/twisty.svg#open-hover-rtl chrome://global/skin/tree/twisty-preWin10.svg#open-hover-rtl osversion<=6.3
+override chrome://global/skin/tree/twisty.svg#open-rtl chrome://global/skin/tree/twisty-preWin10.svg#open-rtl osversion<=6.3
+override chrome://mozapps/skin/plugins/notifyPluginCrashed.png chrome://mozapps/skin/plugins/pluginGeneric-16.png

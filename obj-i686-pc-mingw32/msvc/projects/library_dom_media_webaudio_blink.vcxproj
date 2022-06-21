@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>dom_media_webaudio_blink</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{EC8A78B8-2FF9-5744-BE61-2BAC9F65F0AF}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\dom\media\webaudio\blink;$(TopObjDir)\dom\media\webaudio\blink;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\ipc\ipdl\_ipdlheaders;d:\Projects\DanknetExplorer\dne2\platform\ipc\chromium\src;d:\Projects\DanknetExplorer\dne2\platform\ipc\glue;d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>WIN32_LEAN_AND_MEAN;_WIN32;COMPILER_MSVC;NDEBUG=1;WIN32;TRIMMED=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;OS_WIN=1;_UNICODE;CHROMIUM_BUILD;U_STATIC_IMPLEMENTATION;UNICODE;USE_SSE2;_WINDOWS;_SECURE_ATL</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\Biquad.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\DenormalDisabler.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\DynamicsCompressor.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\DynamicsCompressorKernel.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\FFTConvolver.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\HRTFDatabase.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\HRTFDatabaseLoader.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\HRTFElevation.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\HRTFKernel.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\HRTFPanner.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\IIRFilter.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\PeriodicWave.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\Reverb.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\ReverbAccumulationBuffer.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\ReverbConvolver.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\ReverbConvolverStage.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\ReverbInputBuffer.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\webaudio\blink\ZeroPole.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\Biquad.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\DynamicsCompressor.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\DynamicsCompressorKernel.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\FFTConvolver.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\HRTFDatabase.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\HRTFDatabaseLoader.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\HRTFElevation.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\HRTFKernel.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\HRTFPanner.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\IIRFilter.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\PeriodicWave.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\Reverb.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\ReverbAccumulationBuffer.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\ReverbConvolver.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\ReverbConvolverStage.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\ReverbInputBuffer.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\webaudio\blink\ZeroPole.cpp"/>
+  </ItemGroup>
+</Project>

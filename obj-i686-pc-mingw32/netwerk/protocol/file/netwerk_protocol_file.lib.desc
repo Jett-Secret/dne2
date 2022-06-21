@@ -1,0 +1,1 @@
+OBJS = d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\netwerk\protocol\file\nsFileChannel.obj d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\netwerk\protocol\file\nsFileProtocolHandler.obj

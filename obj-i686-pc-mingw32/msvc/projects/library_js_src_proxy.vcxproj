@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>js_src_proxy</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{1686FB02-D2FA-54AC-A24F-5ECACBE6F11B}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\js\src\proxy;$(TopObjDir)\js\src\proxy;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\js\src;d:\Projects\DanknetExplorer\dne2\platform\js\src;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>FFI_BUILDING;EXPORT_JS_API;NDEBUG=1;TRIMMED=1;JS_HAS_CTYPES;NOMINMAX;ENABLE_SHARED_ARRAY_BUFFER;DLL_SUFFIX=&quot;.dll&quot;;DLL_PREFIX=&quot;&quot;;_CRT_RAND_S</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\js\src\proxy\DeadObjectProxy.h"/>
+    <ClInclude Include="$(TopSrcDir)\js\src\proxy\Proxy.h"/>
+    <ClInclude Include="$(TopSrcDir)\js\src\proxy\ScriptedProxyHandler.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\js\src\proxy\BaseProxyHandler.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\js\src\proxy\CrossCompartmentWrapper.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\js\src\proxy\DeadObjectProxy.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\js\src\proxy\OpaqueCrossCompartmentWrapper.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\js\src\proxy\Proxy.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\js\src\proxy\ScriptedProxyHandler.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\js\src\proxy\SecurityWrapper.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\js\src\proxy\Wrapper.cpp"/>
+  </ItemGroup>
+</Project>

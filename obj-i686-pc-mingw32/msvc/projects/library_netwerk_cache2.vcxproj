@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>netwerk_cache2</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{DA5ED6DE-2885-56DC-B5EC-79008BF25132}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\netwerk\cache2;$(TopObjDir)\netwerk\cache2;d:\Projects\DanknetExplorer\dne2\platform\netwerk\base;d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\AppCacheStorage.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheEntry.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheFile.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheFileChunk.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheFileContextEvictor.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheFileIOManager.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheFileInputStream.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheFileMetadata.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheFileOutputStream.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheFileUtils.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheHashUtils.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheIOThread.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheIndex.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheIndexContextIterator.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheIndexIterator.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheLog.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheObserver.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheStorage.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\CacheStorageService.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\cache2\OldWrappers.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\AppCacheStorage.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheEntry.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheFile.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheFileChunk.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheFileContextEvictor.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheFileIOManager.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheFileInputStream.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheFileMetadata.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheFileOutputStream.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheFileUtils.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheHashUtils.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheIOThread.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheIndex.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheIndexContextIterator.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheIndexIterator.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheLog.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheObserver.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheStorage.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\CacheStorageService.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\cache2\OldWrappers.cpp"/>
+  </ItemGroup>
+</Project>

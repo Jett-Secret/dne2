@@ -1,0 +1,12 @@
+content cookie toolkit/content/cookie/
+content formautofill toolkit/content/formautofill/
+content gfxsanity toolkit/content/gfxsanity/
+content global toolkit/content/global/ contentaccessible=yes
+content global-platform toolkit/content/global-platform/ platform
+content mozapps toolkit/content/mozapps/
+content passwordmgr toolkit/content/passwordmgr/
+content pluginproblem toolkit/pluginproblem/ contentaccessible=yes
+content satchel toolkit/content/satchel/
+resource gre-resources toolkit/res/
+skin global classic/1.0 toolkit/skin/classic/global/
+skin mozapps classic/1.0 toolkit/skin/classic/mozapps/

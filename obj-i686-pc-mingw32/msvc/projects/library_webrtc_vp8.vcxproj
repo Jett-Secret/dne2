@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>webrtc_vp8</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{2C13942F-DDA4-5FB5-A612-215EC1D8E302}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8;$(TopObjDir)\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8;d:\Projects\DanknetExplorer\dne2\platform\media\webrtc\trunk;d:\Projects\DanknetExplorer\dne2\platform\media\libyuv\include;d:\Projects\DanknetExplorer\dne2\platform\media\webrtc\trunk\webrtc\common_video\interface;d:\Projects\DanknetExplorer\dne2\platform\media\webrtc\trunk\webrtc\common_video\libyuv\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\ipc\ipdl\_ipdlheaders;d:\Projects\DanknetExplorer\dne2\platform\ipc\chromium\src;d:\Projects\DanknetExplorer\dne2\platform\ipc\glue;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>ENABLE_INPUT_SPEECH;__STDC_FORMAT_MACROS;_HAS_EXCEPTIONS=0;ENABLE_SESSION_SERVICE=1;TOOLKIT_VIEWS=1;EXPAT_RELATIVE_PATH;_CRT_RAND_S;USE_SKIA=1;ENABLE_PROTECTOR_SERVICE=1;ENABLE_PRINTING=1;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;DYNAMIC_ANNOTATIONS_ENABLED=0;ENABLE_THEMES=1;_UNICODE;USE_LIBJPEG_TURBO=1;__STD_C;ENABLE_ONE_CLICK_SIGNIN;UNICODE;NOMINMAX;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_EXTENSIONS=1;ENABLE_EGLIMAGE=1;_SECURE_ATL;ENABLE_GPU=1;WIN32_LEAN_AND_MEAN;NDEBUG;ENABLE_NOTIFICATIONS;WIN32;TRIMMED=1;ENABLE_REMOTING=1;_CRT_SECURE_NO_DEPRECATE;ENABLE_CONFIGURATION_POLICY;NVALGRIND;WEBRTC_WIN;_SCL_SECURE_NO_DEPRECATE;_ATL_NO_OPENGL;WEBRTC_MOZILLA_BUILD;ENABLE_AUTOMATION=1;ENABLE_WEBRTC=1;ENABLE_WEB_INTENTS=1;ENABLE_TASK_MANAGER=1;CHROMIUM_BUILD;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_BACKGROUND=1;_WINDOWS;PSAPI_VERSION=1</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8\default_temporal_layers.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8\reference_picture_selection.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8\screenshare_layers.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8\simulcast_encoder_adapter.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8\simulcast_unittest.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8\temporal_layers.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8\vp8_factory.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8\vp8_impl.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8\default_temporal_layers.cc"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8\realtime_temporal_layers.cc"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8\reference_picture_selection.cc"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8\screenshare_layers.cc"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8\simulcast_encoder_adapter.cc"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8\vp8_factory.cc"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\webrtc\trunk\webrtc\modules\video_coding\codecs\vp8\vp8_impl.cc"/>
+  </ItemGroup>
+</Project>
