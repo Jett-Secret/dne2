@@ -645,7 +645,7 @@ toolbar[brighttext] .toolbarbutton-1 > .toolbarbutton-menubutton-dropmarker {
 
 :-moz-any(toolbar, .widget-overflow-list) .toolbarbutton-1 > .toolbarbutton-icon,
 :-moz-any(toolbar, .widget-overflow-list) .toolbarbutton-1 > :-moz-any(.toolbarbutton-menubutton-button, .toolbarbutton-badge-stack) > .toolbarbutton-icon {
-  max-width: 64px;
+  max-width: 22px;
 }
 
 :-moz-any(toolbar, .widget-overflow-list) .toolbarbutton-1:-moz-any(@primaryToolbarButtons@, .toolbarbutton-legacy-addon) > .toolbarbutton-icon,
@@ -885,21 +885,21 @@ toolbar[brighttext] .toolbarbutton-1 > .toolbarbutton-menubutton-dropmarker {
 /* unified back/forward button */
 
 :-moz-any(#back-button, #forward-button) > .toolbarbutton-icon {
-  border-color: var(--urlbar-border-color-hover) !important;
-  border-color: #00000000 !important;
+  /*border-color: var(--urlbar-border-color-hover) !important;
+  */border-color: #00000000 !important;
 }
 
 :-moz-any(#back-button, #forward-button):not(:hover):not(:active):not([open=true]) > .toolbarbutton-icon,
 :-moz-any(#back-button, #forward-button)[disabled=true] > .toolbarbutton-icon {
-  background-color: rgba(255,255,255,.15) !important;
+  background-color: rgba(255,255,255,0) !important;
 
   /*blue:background-image: radial-gradient(circle farthest-side at center 110%,hsla(200,100%, 64%, .8) 30%,hsla(226, 100%, 26%,.8) 70%,hsla(200,100%, 64%, .8));*/
-  /*green:*/background-image: linear-gradient(-240deg,white 10%,#68C029 30%, #048D04);
+  /*green:background-image: linear-gradient(-240deg,white 10%,#68C029 30%, #048D04);*/
   background:none;
   background-color: transparent;
-  border-style: solid;
+  /*border-style: solid;
   border-color:darkgreen;
-  border-width: thick;
+  border-width: thick;*/
   border:none;
 }
 
@@ -918,7 +918,7 @@ toolbar[brighttext] .toolbarbutton-1 > .toolbarbutton-menubutton-dropmarker {
   padding-inline-end: 0 !important;*/
   position: relative !important;
   z-index: 4 !important;
-  border-radius: 0 10000px 10000px 0 !important;
+  border-radius: 0 0px 0px 0 !important;
 }
 
 #forward-button > menupopup {
