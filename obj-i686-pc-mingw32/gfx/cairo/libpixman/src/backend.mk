@@ -1,0 +1,44 @@
+# THIS FILE WAS AUTOMATICALLY GENERATED. DO NOT EDIT.
+
+DEFINES += -DNDEBUG=1 -DTRIMMED=1 -DPIXMAN_USE_XP_DLL_TLS_WORKAROUND -DPACKAGE=mozpixman -D_USE_MATH_DEFINES -DUSE_MMX -DUSE_SSE -DUSE_SSE2
+LOCAL_INCLUDES += -I$(topsrcdir)/gfx/cairo/cairo/src
+CSRCS += pixman-access-accessors.c
+CSRCS += pixman-access.c
+CSRCS += pixman-arm.c
+CSRCS += pixman-bits-image.c
+CSRCS += pixman-combine-float.c
+CSRCS += pixman-combine16.c
+CSRCS += pixman-combine32.c
+CSRCS += pixman-conical-gradient.c
+CSRCS += pixman-edge-accessors.c
+CSRCS += pixman-edge.c
+CSRCS += pixman-fast-path.c
+CSRCS += pixman-filter.c
+CSRCS += pixman-general.c
+CSRCS += pixman-glyph.c
+CSRCS += pixman-gradient-walker.c
+CSRCS += pixman-image.c
+CSRCS += pixman-implementation.c
+CSRCS += pixman-linear-gradient.c
+CSRCS += pixman-matrix.c
+CSRCS += pixman-mips.c
+CSRCS += pixman-mmx.c
+CSRCS += pixman-noop.c
+CSRCS += pixman-ppc.c
+CSRCS += pixman-radial-gradient.c
+CSRCS += pixman-region16.c
+CSRCS += pixman-region32.c
+CSRCS += pixman-solid-fill.c
+CSRCS += pixman-sse2.c
+CSRCS += pixman-trap.c
+CSRCS += pixman-utils.c
+CSRCS += pixman-x86.c
+CSRCS += pixman.c
+pixman-sse2.c_FLAGS += -arch:SSE
+pixman-sse2.c_FLAGS += -arch:SSE2
+ALLOW_COMPILER_WARNINGS := 1
+RTL_FLAGS += -MD
+LIBRARY_NAME := gfx_cairo_libpixman_src
+FORCE_STATIC_LIB := 1
+REAL_LIBRARY := gfx_cairo_libpixman_src.lib
+DEFINES += -DMOZ_HAS_MOZGLUE

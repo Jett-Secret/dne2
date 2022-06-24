@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>extensions_permissions</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{656095E3-B0E8-5FB8-963E-89B872C0118E}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\extensions\permissions;$(TopObjDir)\extensions\permissions;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\extensions\permissions\nsContentBlocker.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\extensions\permissions\nsContentBlocker.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\extensions\permissions\nsModuleFactory.cpp"/>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>extensions_spellcheck_src</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{26C26C92-A4D8-5D83-8870-F581C0CA8F9E}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\extensions\spellcheck\src;$(TopObjDir)\extensions\spellcheck\src;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\ipc\ipdl\_ipdlheaders;d:\Projects\DanknetExplorer\dne2\platform\ipc\chromium\src;d:\Projects\DanknetExplorer\dne2\platform\ipc\glue;d:\Projects\DanknetExplorer\dne2\platform\extensions\spellcheck\hunspell\src;d:\Projects\DanknetExplorer\dne2\platform\extensions\spellcheck\hunspell\glue;d:\Projects\DanknetExplorer\dne2\platform\dom\base;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>WIN32_LEAN_AND_MEAN;_WIN32;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;COMPILER_MSVC;NDEBUG=1;OS_WIN=1;_UNICODE;WIN32;TRIMMED=1;CHROMIUM_BUILD;U_STATIC_IMPLEMENTATION;UNICODE;_CRT_RAND_S;_WINDOWS;_SECURE_ATL</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\extensions\spellcheck\src\mozEnglishWordUtils.h"/>
+    <ClInclude Include="$(TopSrcDir)\extensions\spellcheck\src\mozInlineSpellChecker.h"/>
+    <ClInclude Include="$(TopSrcDir)\extensions\spellcheck\src\mozInlineSpellWordUtil.h"/>
+    <ClInclude Include="$(TopSrcDir)\extensions\spellcheck\src\mozPersonalDictionary.h"/>
+    <ClInclude Include="$(TopSrcDir)\extensions\spellcheck\src\mozSpellChecker.h"/>
+    <ClInclude Include="$(TopSrcDir)\extensions\spellcheck\src\mozSpellI18NManager.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\extensions\spellcheck\src\mozEnglishWordUtils.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\extensions\spellcheck\src\mozInlineSpellChecker.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\extensions\spellcheck\src\mozInlineSpellWordUtil.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\extensions\spellcheck\src\mozPersonalDictionary.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\extensions\spellcheck\src\mozSpellChecker.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\extensions\spellcheck\src\mozSpellCheckerFactory.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\extensions\spellcheck\src\mozSpellI18NManager.cpp"/>
+  </ItemGroup>
+</Project>

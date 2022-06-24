@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>media_libwebp_dec</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{46E9B9F5-0B14-58FC-B2CA-7D9EDA164038}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\media\libwebp\dec;$(TopObjDir)\media\libwebp\dec;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\media\libwebp\dec\alphai_dec.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libwebp\dec\common_dec.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libwebp\dec\vp8_dec.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libwebp\dec\vp8i_dec.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libwebp\dec\vp8li_dec.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libwebp\dec\webpi_dec.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libwebp\dec\alpha_dec.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libwebp\dec\buffer_dec.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libwebp\dec\frame_dec.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libwebp\dec\idec_dec.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libwebp\dec\io_dec.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libwebp\dec\quant_dec.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libwebp\dec\tree_dec.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libwebp\dec\vp8_dec.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libwebp\dec\vp8l_dec.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libwebp\dec\webp_dec.c"/>
+  </ItemGroup>
+</Project>

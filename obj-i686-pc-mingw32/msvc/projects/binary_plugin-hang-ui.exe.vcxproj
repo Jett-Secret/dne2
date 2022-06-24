@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>plugin-hang-ui.exe</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{D0349CF3-B259-5A73-A7B5-356698D38FD6}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\dom\plugins\ipc\hangui;$(TopObjDir)\dom\plugins\ipc\hangui;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\ipc\ipdl\_ipdlheaders;d:\Projects\DanknetExplorer\dne2\platform\ipc\chromium\src;d:\Projects\DanknetExplorer\dne2\platform\ipc\glue;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>WIN32_LEAN_AND_MEAN;_WIN32;COMPILER_MSVC;NDEBUG=1;WIN32;_HAS_EXCEPTIONS=0;NS_NO_XPCOM;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;TRIMMED=1;OS_WIN=1;_UNICODE;CHROMIUM_BUILD;U_STATIC_IMPLEMENTATION;UNICODE;_WINDOWS;_SECURE_ATL</NMakePreprocessorDefinitions>
+    <LocalDebuggerCommand>$(TopObjDir)\dist\bin\plugin-hang-ui.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\dom\plugins\ipc\hangui\HangUIDlg.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\plugins\ipc\hangui\MiniShmBase.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\plugins\ipc\hangui\MiniShmChild.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\plugins\ipc\hangui\PluginHangUI.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\plugins\ipc\hangui\PluginHangUIChild.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\plugins\ipc\hangui\MiniShmChild.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\plugins\ipc\hangui\PluginHangUIChild.cpp"/>
+  </ItemGroup>
+</Project>

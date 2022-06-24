@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>dom_media_platforms_agnostic_gmp</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{0EA8DBC6-B4CB-5ABE-8E23-91ABD4ECC3FE}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\dom\media\platforms\agnostic\gmp;$(TopObjDir)\dom\media\platforms\agnostic\gmp;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\ipc\ipdl\_ipdlheaders;d:\Projects\DanknetExplorer\dne2\platform\ipc\chromium\src;d:\Projects\DanknetExplorer\dne2\platform\ipc\glue;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>WIN32_LEAN_AND_MEAN;_WIN32;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;COMPILER_MSVC;NDEBUG=1;OS_WIN=1;_UNICODE;WIN32;TRIMMED=1;CHROMIUM_BUILD;U_STATIC_IMPLEMENTATION;UNICODE;_CRT_RAND_S;_WINDOWS;_SECURE_ATL</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\dom\media\platforms\agnostic\gmp\GMPAudioDecoder.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\platforms\agnostic\gmp\GMPDecoderModule.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\platforms\agnostic\gmp\GMPVideoDecoder.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\media\platforms\agnostic\gmp\MediaDataDecoderProxy.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\platforms\agnostic\gmp\GMPAudioDecoder.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\platforms\agnostic\gmp\GMPDecoderModule.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\platforms\agnostic\gmp\GMPVideoDecoder.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\media\platforms\agnostic\gmp\MediaDataDecoderProxy.cpp"/>
+  </ItemGroup>
+</Project>

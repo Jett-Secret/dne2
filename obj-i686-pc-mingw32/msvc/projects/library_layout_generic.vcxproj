@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>layout_generic</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{1A993EB3-DB3C-505E-AEF1-F7FBEDEF3D2A}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\layout\generic;$(TopObjDir)\layout\generic;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\ipc\ipdl\_ipdlheaders;d:\Projects\DanknetExplorer\dne2\platform\ipc\chromium\src;d:\Projects\DanknetExplorer\dne2\platform\ipc\glue;d:\Projects\DanknetExplorer\dne2\platform\dom\plugins\base;d:\Projects\DanknetExplorer\dne2\platform\layout\base;d:\Projects\DanknetExplorer\dne2\platform\layout\forms;d:\Projects\DanknetExplorer\dne2\platform\layout\style;d:\Projects\DanknetExplorer\dne2\platform\layout\svg;d:\Projects\DanknetExplorer\dne2\platform\layout\tables;d:\Projects\DanknetExplorer\dne2\platform\layout\xul;d:\Projects\DanknetExplorer\dne2\platform\dom\base;d:\Projects\DanknetExplorer\dne2\platform\dom\html;d:\Projects\DanknetExplorer\dne2\platform\dom\xul;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>WIN32_LEAN_AND_MEAN;_WIN32;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;COMPILER_MSVC;NDEBUG=1;OS_WIN=1;_UNICODE;WIN32;TRIMMED=1;CHROMIUM_BUILD;U_STATIC_IMPLEMENTATION;UNICODE;_CRT_RAND_S;_WINDOWS;_SECURE_ATL</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\AspectRatio.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\AsyncScrollBase.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\BlockReflowInput.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\CSSAlignUtils.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\DetailsFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\FrameChildList.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\JustificationUtils.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\MathMLTextRunFactory.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\ReflowInput.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\ReflowOutput.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\RubyUtils.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\ScrollSnap.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\ScrollVelocityQueue.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\ScrollbarActivity.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\Selection.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\SelectionChangeListener.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\StickyScrollContainer.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\TextOverflow.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\Visibility.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\WritingModes.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsAbsoluteContainingBlock.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsAtomicContainerFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsAutoCopyListener.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsBackdropFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsBlockDebugFlags.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsBlockFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsBlockReflowContext.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsBulletFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsCanvasFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsColumnSetFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsContainerFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsDirection.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsFirstLetterFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsFlexContainerFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsFloatManager.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsFontInflationData.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsFrameIdList.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsFrameList.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsFrameSelection.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsFrameSetFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsFrameState.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsFrameStateBits.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsGfxScrollFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsGridContainerFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsHTMLCanvasFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsHTMLParts.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsIAnonymousContentCreator.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsIFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsIFrameInlines.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsIFrameUtil.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsILineIterator.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsIObjectFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsIPageSequenceFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsIScrollPositionListener.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsIScrollableFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsIStatefulFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsImageFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsImageMap.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsInlineFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsIntervalSet.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsLeafFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsLineBox.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsLineLayout.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsPageContentFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsPageFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsPlaceholderFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsPluginFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsQueryFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsRubyBaseContainerFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsRubyBaseFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsRubyContentFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsRubyFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsRubyTextContainerFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsRubyTextFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsSimplePageSequenceFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsSplittableFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsSubDocumentFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsTextFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsTextFrameUtils.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsTextRunTransformations.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsVideoFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\generic\nsViewportFrame.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\AsyncScrollBase.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\BlockReflowInput.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\CSSAlignUtils.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\DetailsFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\FrameChildList.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\MathMLTextRunFactory.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\ReflowInput.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\ReflowOutput.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\RubyUtils.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\ScrollSnap.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\ScrollVelocityQueue.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\ScrollbarActivity.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\StickyScrollContainer.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\TextOverflow.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsAbsoluteContainingBlock.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsBRFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsBackdropFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsBlockFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsBlockReflowContext.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsBulletFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsCanvasFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsColumnSetFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsContainerFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsFirstLetterFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsFlexContainerFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsFloatManager.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsFontInflationData.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsFrameList.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsFrameSetFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsFrameState.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsFrameUtil.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsGfxScrollFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsGridContainerFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsHTMLCanvasFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsImageFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsImageMap.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsInlineFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsIntervalSet.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsLeafFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsLineBox.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsLineLayout.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsPageContentFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsPageFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsPlaceholderFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsPluginFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsRubyBaseContainerFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsRubyBaseFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsRubyContentFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsRubyFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsRubyTextContainerFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsRubyTextFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsSelection.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsSimplePageSequenceFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsSplittableFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsSubDocumentFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsTextFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsTextFrameUtils.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsTextRunTransformations.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsVideoFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\generic\nsViewportFrame.cpp"/>
+  </ItemGroup>
+</Project>

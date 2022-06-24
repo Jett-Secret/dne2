@@ -1,0 +1,1 @@
+OBJS = d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\extensions\auth\nsAuthSASL.obj d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\extensions\auth\nsAuthSSPI.obj d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\extensions\auth\nsHttpNegotiateAuth.obj d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\extensions\auth\Unified_cpp_extensions_auth0.obj

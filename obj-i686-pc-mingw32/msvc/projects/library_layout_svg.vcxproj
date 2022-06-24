@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>layout_svg</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{28F03FD2-4763-530F-80F5-0B781EBDBDA0}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\layout\svg;$(TopObjDir)\layout\svg;d:\Projects\DanknetExplorer\dne2\platform\widget;d:\Projects\DanknetExplorer\dne2\platform\layout\base;d:\Projects\DanknetExplorer\dne2\platform\layout\generic;d:\Projects\DanknetExplorer\dne2\platform\layout\style;d:\Projects\DanknetExplorer\dne2\platform\layout\xul;d:\Projects\DanknetExplorer\dne2\platform\dom\base;d:\Projects\DanknetExplorer\dne2\platform\dom\svg;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\AutoReferenceLimiter.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\SVGContextPaint.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\SVGImageContext.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\SVGTextFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsCSSClipPathInstance.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsCSSFilterInstance.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsFilterInstance.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsISVGChildFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsISVGSVGFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGClipPathFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGContainerFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGEffects.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGFilterFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGFilterInstance.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGFilterPaintCallback.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGForeignObjectFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGGFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGGenericContainerFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGGradientFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGInnerSVGFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGIntegrationUtils.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGMarkerFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGMaskFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGMaskFrameNEON.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGOuterSVGFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGPaintServerFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGPathGeometryFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGPatternFrame.h"/>
+    <ClInclude Include="$(TopSrcDir)\layout\svg\nsSVGUtils.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\SVGContextPaint.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\SVGFEContainerFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\SVGFEImageFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\SVGFELeafFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\SVGFEUnstyledLeafFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\SVGTextFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\SVGViewFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsCSSClipPathInstance.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsCSSFilterInstance.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsFilterInstance.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGAFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGClipPathFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGContainerFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGEffects.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGFilterFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGFilterInstance.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGForeignObjectFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGGFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGGenericContainerFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGGradientFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGImageFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGInnerSVGFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGIntegrationUtils.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGMarkerFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGMaskFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGOuterSVGFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGPathGeometryFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGPatternFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGStopFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGSwitchFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGUseFrame.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\layout\svg\nsSVGUtils.cpp"/>
+  </ItemGroup>
+</Project>

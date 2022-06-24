@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>mozillapkix</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{BAB09A2B-CDF6-5E31-9662-9D98E38646C8}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\security\pkix;$(TopObjDir)\security\pkix;d:\Projects\DanknetExplorer\dne2\platform\security\nss\cpputil;d:\Projects\DanknetExplorer\dne2\platform\security\pkix\include;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup/>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\security\pkix\lib\pkixbuild.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\security\pkix\lib\pkixcert.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\security\pkix\lib\pkixcheck.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\security\pkix\lib\pkixder.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\security\pkix\lib\pkixnames.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\security\pkix\lib\pkixnss.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\security\pkix\lib\pkixocsp.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\security\pkix\lib\pkixresult.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\security\pkix\lib\pkixtime.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\security\pkix\lib\pkixverify.cpp"/>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>netwerk_wifi</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{00E1F9A2-ACDD-5E0A-99BD-468A927D9178}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\netwerk\wifi;$(TopObjDir)\netwerk\wifi;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\netwerk\wifi\nsWifiAccessPoint.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\wifi\nsWifiMonitor.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\wifi\nsWifiScannerDBus.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\wifi\osx_wifi.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\wifi\win_wifiScanner.h"/>
+    <ClInclude Include="$(TopSrcDir)\netwerk\wifi\win_wlanLibrary.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\wifi\nsWifiAccessPoint.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\wifi\nsWifiMonitor.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\wifi\nsWifiScannerWin.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\wifi\win_wifiScanner.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\netwerk\wifi\win_wlanLibrary.cpp"/>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+mk_add_options AUTOCLOBBER=1
+ac_add_options --enable-application=basilisk
+ac_add_options --enable-optimize="-O2"
+
+# Set up the basilisk extension app version
+export BASILISK_VERSION=1
+
+ac_add_options --disable-crashreporter
+
+# Disable the updater unless you have set up the infra and preferences for it correctly!
+ac_add_options --disable-updater
+
+# Disable add-ons signing
+# Disable checking that add-ons are signed by the trusted root
+MOZ_ADDON_SIGNING=
+# Disable enforcing that add-ons are signed by the trusted root
+MOZ_REQUIRE_SIGNING=
+ac_add_options --disable-tests
+ac_add_options --enable-jemalloc
+ac_add_options --disable-debug
+ac_add_options --enable-strip
+ac_add_options --with-branding=basilisk/branding/dankbranding
+
+# Disable telemetry reporting
+export MOZ_TELEMETRY_REPORTING=

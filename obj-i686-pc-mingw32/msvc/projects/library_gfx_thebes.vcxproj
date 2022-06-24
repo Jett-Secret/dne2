@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>gfx_thebes</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{11F915D6-BDA3-5F4D-9AF0-1B3555DE32BF}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\gfx\thebes;$(TopObjDir)\gfx\thebes;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\ipc\ipdl\_ipdlheaders;d:\Projects\DanknetExplorer\dne2\platform\ipc\chromium\src;d:\Projects\DanknetExplorer\dne2\platform\ipc\glue;d:\Projects\DanknetExplorer\dne2\platform\dom\workers;d:\Projects\DanknetExplorer\dne2\platform\dom\xml;d:\Projects\DanknetExplorer\dne2\platform\gfx\skia;d:\Projects\DanknetExplorer\dne2\platform\gfx\skia\skia\include\config;d:\Projects\DanknetExplorer\dne2\platform\gfx\skia\skia\include\core;d:\Projects\DanknetExplorer\dne2\platform\gfx\skia\skia\include\gpu;d:\Projects\DanknetExplorer\dne2\platform\gfx\skia\skia\include\utils;d:\Projects\DanknetExplorer\dne2\platform\media\libyuv\include;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>WIN32_LEAN_AND_MEAN;_WIN32;MOZ_ENABLE_D3D9_LAYER;COMPILER_MSVC;NDEBUG=1;WIN32;TRIMMED=1;_CRT_RAND_S;MOZ_ENABLE_D3D10_LAYER;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;OS_WIN=1;GRAPHITE2_STATIC;_UNICODE;CHROMIUM_BUILD;OTS_DLL;UNICODE;U_STATIC_IMPLEMENTATION;_WINDOWS;_SECURE_ATL</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\ContextStateTracker.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\D3D11Checks.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\DeviceManagerDx.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\DrawMode.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\PrintTarget.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\PrintTargetPDF.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\PrintTargetPS.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\PrintTargetRecording.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\PrintTargetThebes.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\PrintTargetWindows.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\RoundedRect.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\SoftwareVsyncSource.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\VsyncSource.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\cairo-xlib-utils.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\d3dkmtQueryStatistics.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfx2DGlue.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxASurface.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxAlphaRecovery.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxBaseSharedMemorySurface.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxBlur.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxColor.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxContext.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxDWriteCommon.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxDWriteFontList.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxDWriteFonts.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxDrawable.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxEnv.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFT2FontBase.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFT2FontList.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFT2Fonts.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFT2Utils.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFailure.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFcPlatformFontList.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFont-Impl.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFont.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFontConstants.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFontEntry.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFontFamilyList.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFontFeatures.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFontInfoLoader.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFontMissingGlyphs.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFontPrefLangList.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFontTest.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFontUtils.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFontconfigFonts.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxFontconfigUtils.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxGDIFont.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxGDIFontList.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxGdkNativeRenderer.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxGlyphExtents.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxGradientCache.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxGraphiteShaper.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxHarfBuzzShaper.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxImageSurface.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxLineSegment.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxMathTable.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxMatrix.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxPattern.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxPlatform.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxPlatformFontList.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxPlatformGtk.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxPoint.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxPrefs.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxQuad.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxQuaternion.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxRect.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxSVGGlyphs.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxScriptItemizer.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxSharedImageSurface.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxSkipChars.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxTextRun.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxTypes.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxUserFontSet.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxUtils.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxWindowsNativeDrawing.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxWindowsPlatform.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxWindowsSurface.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxXlibNativeRenderer.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\gfxXlibSurface.h"/>
+    <ClInclude Include="$(TopSrcDir)\gfx\thebes\nsUnicodeRange.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\CJKCompatSVS.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\ContextStateTracker.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\D3D11Checks.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\DeviceManagerDx.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\PrintTarget.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\PrintTargetPDF.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\PrintTargetThebes.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\PrintTargetWindows.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\SoftwareVsyncSource.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\VsyncSource.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxASurface.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxAlphaRecovery.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxAlphaRecoverySSE2.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxBaseSharedMemorySurface.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxBlur.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxContext.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxDWriteCommon.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxDWriteFontList.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxDWriteFonts.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxDrawable.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxFont.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxFontEntry.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxFontFeatures.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxFontInfoLoader.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxFontMissingGlyphs.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxFontTest.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxFontUtils.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxGDIFont.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxGDIFontList.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxGlyphExtents.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxGradientCache.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxGraphiteShaper.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxHarfBuzzShaper.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxImageSurface.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxMathTable.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxMatrix.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxPattern.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxPlatform.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxPlatformFontList.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxPrefs.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxRect.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxSVGGlyphs.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxScriptItemizer.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxSkipChars.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxTextRun.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxUserFontSet.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxUtils.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxWindowsNativeDrawing.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxWindowsPlatform.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\gfxWindowsSurface.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\gfx\thebes\nsUnicodeRange.cpp"/>
+  </ItemGroup>
+</Project>

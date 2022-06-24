@@ -1,0 +1,1 @@
+OBJS = d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dom\permission\PermissionObserver.obj d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dom\permission\PermissionStatus.obj d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dom\permission\PermissionUtils.obj d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dom\permission\Permissions.obj

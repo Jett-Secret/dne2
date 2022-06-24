@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>media_libjpeg</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{B0706E2E-9D05-5ED5-A9D3-83E485FAA1C5}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\media\libjpeg;$(TopObjDir)\media\libjpeg;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jchuff.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jconfig.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jconfigint.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jdcoefct.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jdct.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jdhuff.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jdmainct.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jdmaster.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jdsample.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jerror.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jinclude.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jmemsys.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jmorecfg.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jpeg_nbits_table.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jpegcomp.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jpegint.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jpeglib.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jsimd.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jsimddct.h"/>
+    <ClInclude Include="$(TopSrcDir)\media\libjpeg\jversion.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jcapimin.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jcapistd.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jccoefct.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jccolor.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jcdctmgr.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jchuff.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jcinit.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jcmainct.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jcmarker.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jcmaster.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jcomapi.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jcparam.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jcphuff.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jcprepct.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jcsample.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jctrans.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdapimin.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdapistd.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdatadst.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdatasrc.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdcoefct.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdcolor.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jddctmgr.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdhuff.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdinput.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdmainct.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdmarker.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdmaster.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdmerge.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdphuff.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdpostct.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdsample.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jdtrans.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jerror.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jfdctflt.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jfdctfst.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jfdctint.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jidctflt.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jidctfst.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jidctint.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jidctred.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jmemmgr.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jmemnobs.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jquant1.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jquant2.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\jutils.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jccolor-mmx.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jccolor-sse2.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jcgray-mmx.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jcgray-sse2.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jchuff-sse2.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jcsample-mmx.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jcsample-sse2.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jdcolor-mmx.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jdcolor-sse2.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jdmerge-mmx.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jdmerge-sse2.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jdsample-mmx.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jdsample-sse2.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jfdctflt-3dn.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jfdctflt-sse.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jfdctfst-mmx.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jfdctfst-sse2.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jfdctint-mmx.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jfdctint-sse2.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jidctflt-3dn.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jidctflt-sse.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jidctflt-sse2.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jidctfst-mmx.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jidctfst-sse2.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jidctint-mmx.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jidctint-sse2.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jidctred-mmx.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jidctred-sse2.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jquant-3dn.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jquant-mmx.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jquant-sse.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jquantf-sse2.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jquanti-sse2.asm"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jsimd_i386.c"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\media\libjpeg\simd\jsimdcpu.asm"/>
+  </ItemGroup>
+</Project>

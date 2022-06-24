@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" ?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build|Win32">
+      <Configuration>Build</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>dom_xul</ProjectName>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{B8B50390-1F6D-5E05-8CBD-0D485D7676D8}</ProjectGuid>
+    <RootNamespace>mozilla</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <ImportGroup Label="ExtensionTargets"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="mozilla.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build|Win32'">
+    <NMakeIncludeSearchPath>$(TopSrcDir)\dom\xul;$(TopObjDir)\dom\xul;d:\Projects\DanknetExplorer\dne2\platform\docshell\base;d:\Projects\DanknetExplorer\dne2\platform\dom\base;d:\Projects\DanknetExplorer\dne2\platform\dom\html;d:\Projects\DanknetExplorer\dne2\platform\dom\xbl;d:\Projects\DanknetExplorer\dne2\platform\dom\xml;d:\Projects\DanknetExplorer\dne2\platform\dom\xul\templates;d:\Projects\DanknetExplorer\dne2\platform\layout\base;d:\Projects\DanknetExplorer\dne2\platform\layout\generic;d:\Projects\DanknetExplorer\dne2\platform\layout\style;d:\Projects\DanknetExplorer\dne2\platform\layout\xul;$(TopObjDir)\dist\include\nss;$(TopObjDir)\dist\include;d:\Projects\DanknetExplorer\dne2\obj-i686-pc-mingw32\dist\include\nspr;$(DefaultIncludes)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(TopObjDir)\dist\include\mozilla-config.h</NMakeForcedIncludes>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ItemGroup>
+    <ClInclude Include="$(TopSrcDir)\dom\xul\XULDocument.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\xul\nsForwardReference.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\xul\nsIXULDocument.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\xul\nsXULCommandDispatcher.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\xul\nsXULContentSink.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\xul\nsXULControllers.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\xul\nsXULElement.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\xul\nsXULPopupListener.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\xul\nsXULPrototypeCache.h"/>
+    <ClInclude Include="$(TopSrcDir)\dom\xul\nsXULPrototypeDocument.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\xul\XULDocument.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\xul\nsXULCommandDispatcher.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\xul\nsXULContentSink.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\xul\nsXULControllers.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\xul\nsXULElement.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\xul\nsXULPopupListener.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\xul\nsXULPrototypeCache.cpp"/>
+    <ClCompile Include="d:\Projects\DanknetExplorer\dne2\platform\dom\xul\nsXULPrototypeDocument.cpp"/>
+  </ItemGroup>
+</Project>
