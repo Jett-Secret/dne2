@@ -9,6 +9,19 @@
       <excludeFolder url="file://$MODULE_DIR$/config" />
       <excludeFolder url="file://$MODULE_DIR$/obj-i686-pc-mingw32" />
       <excludeFolder url="file://$MODULE_DIR$/platform" />
+      <excludeFolder url="file://$MODULE_DIR$/basilisk/app/profile" />
+      <excludeFolder url="file://$MODULE_DIR$/basilisk/docs" />
+      <excludeFolder url="file://$MODULE_DIR$/basilisk/extensions" />
+      <excludeFolder url="file://$MODULE_DIR$/basilisk/installer" />
+      <excludeFolder url="file://$MODULE_DIR$/basilisk/locales" />
+      <excludeFolder url="file://$MODULE_DIR$/basilisk/modules" />
+      <excludeFolder url="file://$MODULE_DIR$/basilisk/themes" />
+      <excludeFolder url="file://$MODULE_DIR$/basilisk/tools" />
+      <excludeFolder url="file://$MODULE_DIR$/basilisk/config" />
+      <excludeFolder url="file://$MODULE_DIR$/basilisk/branding/official" />
+      <excludeFolder url="file://$MODULE_DIR$/basilisk/branding/shared" />
+      <excludeFolder url="file://$MODULE_DIR$/basilisk/branding/unofficial" />
+      <excludeFolder url="file://$MODULE_DIR$/basilisk/app" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

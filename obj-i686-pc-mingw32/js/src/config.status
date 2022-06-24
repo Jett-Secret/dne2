@@ -150,7 +150,7 @@ substs = encode({
     'MOZJS_MINOR_VERSION': '8',
     'MOZJS_PATCH_VERSION': '3',
     'MOZ_APP_DISPLAYNAME': '',
-    'MOZ_APP_NAME': 'basilisk',
+    'MOZ_APP_NAME': 'danknet_explorer',
     'MOZ_APP_VERSION': '',
     'MOZ_ASAN': '',
     'MOZ_BUILD_APP': 'js',
