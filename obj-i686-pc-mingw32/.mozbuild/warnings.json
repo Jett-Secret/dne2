@@ -1,0 +1,1413 @@
+{
+  "files": {
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libvorbis\\lib\\vorbisenc.c": {
+      "hash": "cd7c13d9ed89907866a353e843f30c5c97b0b24d", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 914, 
+          "flag": "C4305", 
+          "message": "'=': truncation from 'double' to 'float'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libvorbis\\lib\\vorbisenc.c"
+        }, 
+        {
+          "column": null, 
+          "line": 913, 
+          "flag": "C4305", 
+          "message": "'+=': truncation from 'double' to 'float'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libvorbis\\lib\\vorbisenc.c"
+        }
+      ]
+    }, 
+    "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt\\stdlib.h": {
+      "hash": "4cc7bc8b9dec46c4a3624e344f7637cd6448aa5f", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 1283, 
+          "flag": "C4005", 
+          "message": "'min': macro redefinition", 
+          "filename": "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt\\stdlib.h"
+        }, 
+        {
+          "column": null, 
+          "line": 1282, 
+          "flag": "C4005", 
+          "message": "'max': macro redefinition", 
+          "filename": "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt\\stdlib.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\audio_processing\\aecm\\aecm_defines.h": {
+      "hash": "51543aa133217bca000011de7e03c918738792ca", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 23, 
+          "flag": "C4005", 
+          "message": "'PART_LEN2': macro redefinition", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\audio_processing\\aecm\\aecm_defines.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\net\\nr_socket.h": {
+      "hash": "17a016f07895343d04fb97debba4a10a3a0e392f", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 52, 
+          "flag": "C4005", 
+          "message": "'restrict': macro redefinition", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\net\\nr_socket.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\stun_codec.c": {
+      "hash": "7d6e98408389af7877680537c13c101b76d3a5cb", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 108, 
+          "flag": "C4018", 
+          "message": "'>': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\stun_codec.c"
+        }, 
+        {
+          "column": null, 
+          "line": 189, 
+          "flag": "C4018", 
+          "message": "'>': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\stun_codec.c"
+        }, 
+        {
+          "column": null, 
+          "line": 155, 
+          "flag": "C4018", 
+          "message": "'>': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\stun_codec.c"
+        }, 
+        {
+          "column": null, 
+          "line": 172, 
+          "flag": "C4018", 
+          "message": "'>': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\stun_codec.c"
+        }, 
+        {
+          "column": null, 
+          "line": 231, 
+          "flag": "C4018", 
+          "message": "'>': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\stun_codec.c"
+        }, 
+        {
+          "column": null, 
+          "line": 124, 
+          "flag": "C4018", 
+          "message": "'>': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\stun_codec.c"
+        }, 
+        {
+          "column": null, 
+          "line": 92, 
+          "flag": "C4018", 
+          "message": "'>=': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\stun_codec.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\libpixman\\src\\pixman-fast-path.c": {
+      "hash": "e7f25c9256cb75e582f3aeb1f1e785d5fc192c37", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 1259, 
+          "flag": "C4101", 
+          "message": "'result': unreferenced local variable", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\libpixman\\src\\pixman-fast-path.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nrappkit\\src\\util\\hex.c": {
+      "hash": "47d8eda28638f3ddee04a57c37b943b217fc304f", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 59, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nrappkit\\src\\util\\hex.c"
+        }, 
+        {
+          "column": null, 
+          "line": 67, 
+          "flag": "C4018", 
+          "message": "'>=': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nrappkit\\src\\util\\hex.c"
+        }, 
+        {
+          "column": null, 
+          "line": 92, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nrappkit\\src\\util\\hex.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libspeex_resampler\\src\\resample_sse.c": {
+      "hash": "843cd50ecfd12d83009958f35c1dd890787d4c58", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 47, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libspeex_resampler\\src\\resample_sse.c"
+        }, 
+        {
+          "column": null, 
+          "line": 112, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libspeex_resampler\\src\\resample_sse.c"
+        }, 
+        {
+          "column": null, 
+          "line": 86, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libspeex_resampler\\src\\resample_sse.c"
+        }, 
+        {
+          "column": null, 
+          "line": 64, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libspeex_resampler\\src\\resample_sse.c"
+        }
+      ]
+    }, 
+    "d:\\projects\\danknetexplorer\\dne2\\platform\\toolkit\\components\\protobuf\\src\\google\\protobuf\\extension_set.cc": {
+      "hash": "6bdb207f3b3f91ca5c757c4730c8bf35bb6fe97e", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 74, 
+          "flag": "C4715", 
+          "message": "'google::protobuf::internal::`anonymous namespace'::is_packable': not all control paths return a value", 
+          "filename": "d:\\projects\\danknetexplorer\\dne2\\platform\\toolkit\\components\\protobuf\\src\\google\\protobuf\\extension_set.cc"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\security\\pkix\\include\\pkix\\pkixder.h": {
+      "hash": "29ce533114625798fbbe550f62bd5a64dc900e2b", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 105, 
+          "flag": "C4365", 
+          "message": "'argument': conversion from 'int' to 'uint8_t', signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\security\\pkix\\include\\pkix\\pkixder.h"
+        }, 
+        {
+          "column": null, 
+          "line": 104, 
+          "flag": "C4365", 
+          "message": "'argument': conversion from 'int' to 'uint8_t', signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\security\\pkix\\include\\pkix\\pkixder.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\desktop_capture\\win\\desktop_device_info_win.cc": {
+      "hash": "5c37789de3c8e3293414203557e51526f862e03f", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 14, 
+          "flag": "C4273", 
+          "message": "'QueryFullProcessImageNameW': inconsistent dll linkage", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\desktop_capture\\win\\desktop_device_info_win.cc"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\rtp_rtcp\\source\\rtp_rtcp_impl.h": {
+      "hash": "1baf7c8241a0e7b740ecab10eef58131b0c2a18b", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 324, 
+          "flag": "C4373", 
+          "message": "'webrtc::ModuleRtpRtcpImpl::SendRTCPReferencePictureSelection': virtual function overrides 'webrtc::RtpRtcp::SendRTCPReferencePictureSelection', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\rtp_rtcp\\source\\rtp_rtcp_impl.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\common_audio\\window_generator.cc": {
+      "hash": "08469d0d9e074f85f617724efde07f317b58e554", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 11, 
+          "flag": "C4005", 
+          "message": "'_USE_MATH_DEFINES': macro redefinition", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\common_audio\\window_generator.cc"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\signaling\\src\\sdp\\sipcc\\sdp_attr.c": {
+      "hash": "163dd1ebd9c6c052b44d3f34d89843532fa9b06c", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 586, 
+          "flag": "C4146", 
+          "message": "unary minus operator applied to unsigned type, result still unsigned", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\signaling\\src\\sdp\\sipcc\\sdp_attr.c"
+        }, 
+        {
+          "column": null, 
+          "line": 585, 
+          "flag": "C4146", 
+          "message": "unary minus operator applied to unsigned type, result still unsigned", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\signaling\\src\\sdp\\sipcc\\sdp_attr.c"
+        }, 
+        {
+          "column": null, 
+          "line": 584, 
+          "flag": "C4146", 
+          "message": "unary minus operator applied to unsigned type, result still unsigned", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\signaling\\src\\sdp\\sipcc\\sdp_attr.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\audio_processing\\beamformer\\covariance_matrix_generator.cc": {
+      "hash": "df8e60a2bbf880566575172d3834edcdbb7fe9fd", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 11, 
+          "flag": "C4005", 
+          "message": "'_USE_MATH_DEFINES': macro redefinition", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\audio_processing\\beamformer\\covariance_matrix_generator.cc"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libspeex_resampler\\src\\resample.c": {
+      "hash": "e2fd5650ec6d652de4822dcc103db7dfb3e45d33", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 979, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libspeex_resampler\\src\\resample.c"
+        }, 
+        {
+          "column": null, 
+          "line": 976, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libspeex_resampler\\src\\resample.c"
+        }, 
+        {
+          "column": null, 
+          "line": 1032, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libspeex_resampler\\src\\resample.c"
+        }, 
+        {
+          "column": null, 
+          "line": 697, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libspeex_resampler\\src\\resample.c"
+        }, 
+        {
+          "column": null, 
+          "line": 1039, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libspeex_resampler\\src\\resample.c"
+        }, 
+        {
+          "column": null, 
+          "line": 1049, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libspeex_resampler\\src\\resample.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nrappkit\\src\\registry\\c2ru.c": {
+      "hash": "9cfa513dff1024de86de2c1ed30e635b4e4c499a", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 239, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nrappkit\\src\\registry\\c2ru.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\build\\build_config.h": {
+      "hash": "60f61c954713def54d851a6580299a99f34af101", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 109, 
+          "flag": "C4005", 
+          "message": "'ARCH_CPU_LITTLE_ENDIAN': macro redefinition", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\build\\build_config.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\rtp_rtcp\\source\\rtp_sender.h": {
+      "hash": "5316a777be342ba273f94a9fb22386867932d606", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 222, 
+          "flag": "C4373", 
+          "message": "'webrtc::RTPSender::BuildRTPheader': virtual function overrides 'webrtc::RTPSenderInterface::BuildRTPheader', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\rtp_rtcp\\source\\rtp_sender.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\base\\win32.cc": {
+      "hash": "73a97ab52914719cbf250cb2682f48b7d9deec94", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 425, 
+          "flag": "C4996", 
+          "message": "'GetVersionExW': was declared deprecated", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\base\\win32.cc"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\turn_client_ctx.c": {
+      "hash": "5cb4f53dea25ca88b2795e341faa9ff61f0c6ce9", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 895, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\turn_client_ctx.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\md\\windows\\w95sock.c": {
+      "hash": "9ccf7cef62561569538208ad57a27ec0e3608433", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 32, 
+          "flag": "C4996", 
+          "message": "'GetVersionExA': was declared deprecated", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\md\\windows\\w95sock.c"
+        }
+      ]
+    }, 
+    "d:\\projects\\danknetexplorer\\dne2\\platform\\media\\libsoundtouch\\src\\SoundTouch.h": {
+      "hash": "29446a7e2734f4d10769a17f36908516592ec65b", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 145, 
+          "flag": "C4275", 
+          "message": "non dll-interface class 'soundtouch::FIFOProcessor' used as base for dll-interface class 'soundtouch::SoundTouch'", 
+          "filename": "d:\\projects\\danknetexplorer\\dne2\\platform\\media\\libsoundtouch\\src\\SoundTouch.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\ice\\ice_ctx.c": {
+      "hash": "bd10275ac9898328ddb98b0a9b50a4e34e0d7e74", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 100, 
+          "flag": "C4996", 
+          "message": "'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\ice\\ice_ctx.c"
+        }, 
+        {
+          "column": null, 
+          "line": 295, 
+          "flag": "C4996", 
+          "message": "'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\ice\\ice_ctx.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\io\\priometh.c": {
+      "hash": "4326dafd135b8e280cbf20590279a8ff577f7903", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 338, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\io\\priometh.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\dom\\ipc\\nsIContentParent.cpp": {
+      "hash": "d7965ed3c922bbfd73aacded2a233a9949c00ebf", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 295, 
+          "flag": "C4150", 
+          "message": "deletion of pointer to incomplete type 'mozilla::ipc::PSendStreamParent'; no destructor called", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\dom\\ipc\\nsIContentParent.cpp"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\channel.h": {
+      "hash": "92183a486f43673bfb5f1ee6446180856fea9d97", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 381, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::Channel::OnIncomingSSRCChanged': virtual function overrides 'webrtc::RtpFeedback::OnIncomingSSRCChanged', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\channel.h"
+        }, 
+        {
+          "column": null, 
+          "line": 368, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::Channel::OnReceivedPayloadData': virtual function overrides 'webrtc::RtpData::OnReceivedPayloadData', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\channel.h"
+        }, 
+        {
+          "column": null, 
+          "line": 375, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::Channel::OnInitializeDecoder': virtual function overrides 'webrtc::RtpFeedback::OnInitializeDecoder', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\channel.h"
+        }, 
+        {
+          "column": null, 
+          "line": 396, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::Channel::GetAudioFrame': virtual function overrides 'webrtc::MixerParticipant::GetAudioFrame', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\channel.h"
+        }, 
+        {
+          "column": null, 
+          "line": 403, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::Channel::RecordFileEnded': virtual function overrides 'webrtc::FileCallback::RecordFileEnded', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\channel.h"
+        }, 
+        {
+          "column": null, 
+          "line": 402, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::Channel::PlayFileEnded': virtual function overrides 'webrtc::FileCallback::PlayFileEnded', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\channel.h"
+        }, 
+        {
+          "column": null, 
+          "line": 401, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::Channel::RecordNotification': virtual function overrides 'webrtc::FileCallback::RecordNotification', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\channel.h"
+        }, 
+        {
+          "column": null, 
+          "line": 386, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::Channel::OnPlayTelephoneEvent': virtual function overrides 'webrtc::RtpAudioFeedback::OnPlayTelephoneEvent', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\channel.h"
+        }, 
+        {
+          "column": null, 
+          "line": 382, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::Channel::OnIncomingCSRCChanged': virtual function overrides 'webrtc::RtpFeedback::OnIncomingCSRCChanged', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\channel.h"
+        }, 
+        {
+          "column": null, 
+          "line": 400, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::Channel::PlayNotification': virtual function overrides 'webrtc::FileCallback::PlayNotification', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\channel.h"
+        }, 
+        {
+          "column": null, 
+          "line": 397, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::Channel::NeededFrequency': virtual function overrides 'webrtc::MixerParticipant::NeededFrequency', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\channel.h"
+        }, 
+        {
+          "column": null, 
+          "line": 400, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::Channel::PlayNotification': virtual function overrides 'webrtc::FileCallback::PlayNotification', previous versions of the compiler did not override when parameters only differed by conUnified_cpp_webrtc_voice_engine0.cpp", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\channel.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\libpixman\\src\\pixman-matrix.c": {
+      "hash": "062eaae2ca3077fa7a5bec2c64e98ee974f9b24b", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 128, 
+          "flag": "C4146", 
+          "message": "unary minus operator applied to unsigned type, result still unsigned", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\libpixman\\src\\pixman-matrix.c"
+        }, 
+        {
+          "column": null, 
+          "line": 129, 
+          "flag": "C4146", 
+          "message": "unary minus operator applied to unsigned type, result still unsigned", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\libpixman\\src\\pixman-matrix.c"
+        }, 
+        {
+          "column": null, 
+          "line": 120, 
+          "flag": "C4146", 
+          "message": "unary minus operator applied to unsigned type, result still unsigned", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\libpixman\\src\\pixman-matrix.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\stun_build.c": {
+      "hash": "283cc625788138bcf1eb03a51913ac9b3effe2a0", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 328, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\stun_build.c"
+        }
+      ]
+    }, 
+    "d:\\projects\\danknetexplorer\\dne2\\obj-i686-pc-mingw32\\dist\\include\\nsISupportsUtils.h": {
+      "hash": "09f90ceb826364da89e46c1fc4a3e138f2cc7d8a", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 49, 
+          "flag": "C4005", 
+          "message": "'NS_IF_ADDREF': macro redefinition", 
+          "filename": "d:\\projects\\danknetexplorer\\dne2\\obj-i686-pc-mingw32\\dist\\include\\nsISupportsUtils.h"
+        }, 
+        {
+          "column": null, 
+          "line": 101, 
+          "flag": "C4005", 
+          "message": "'NS_IF_RELEASE': macro redefinition", 
+          "filename": "d:\\projects\\danknetexplorer\\dne2\\obj-i686-pc-mingw32\\dist\\include\\nsISupportsUtils.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libtheora\\lib\\x86_vc\\mmxidct.c": {
+      "hash": "3e4d70592479512c7462a864c54e5e4c60eaa091", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 306, 
+          "flag": "C4101", 
+          "message": "'i': unreferenced local variable", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libtheora\\lib\\x86_vc\\mmxidct.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\audio_device\\win\\audio_device_utility_win.cc": {
+      "hash": "8af253eb6eaf256b2a955d5a86d7880eea822ca3", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 108, 
+          "flag": "C4996", 
+          "message": "'GetVersionExW': was declared deprecated", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\audio_device\\win\\audio_device_utility_win.cc"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\md\\windows\\ntmisc.c": {
+      "hash": "be64f3f577319eb0b05ba8287a03224f809fdde6", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 820, 
+          "flag": "C4996", 
+          "message": "'GetVersionExA': was declared deprecated", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\md\\windows\\ntmisc.c"
+        }, 
+        {
+          "column": null, 
+          "line": 877, 
+          "flag": "C4996", 
+          "message": "'GetVersionExA': was declared deprecated", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\md\\windows\\ntmisc.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\voe_base_impl.h": {
+      "hash": "143ea78f7beb2180345cc098e4bc90ec0fa1b469", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 66, 
+          "flag": "C4373", 
+          "message": "'webrtc::VoEBaseImpl::RecordedDataIsAvailable': virtual function overrides 'webrtc::AudioTransport::RecordedDataIsAvailable', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\voe_base_impl.h"
+        }, 
+        {
+          "column": null, 
+          "line": 112, 
+          "flag": "C4373", 
+          "message": "'webrtc::VoEBaseImpl::OnErrorIsReported': virtual function overrides 'webrtc::AudioDeviceObserver::OnErrorIsReported', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\voe_base_impl.h"
+        }, 
+        {
+          "column": null, 
+          "line": 77, 
+          "flag": "C4373", 
+          "message": "'webrtc::VoEBaseImpl::NeedMorePlayData': virtual function overrides 'webrtc::AudioTransport::NeedMorePlayData', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\voe_base_impl.h"
+        }, 
+        {
+          "column": null, 
+          "line": 113, 
+          "flag": "C4373", 
+          "message": "'webrtc::VoEBaseImpl::OnWarningIsReported': virtual function overrides 'webrtc::AudioDeviceObserver::OnWarningIsReported', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\voe_base_impl.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\io\\prprf.c": {
+      "hash": "fed7cded8b6e62b176938271454384e7574159f8", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 1140, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\io\\prprf.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c": {
+      "hash": "d5b41bd08444a46c2f516fc5b81af6206f07506b", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 98, 
+          "flag": "C4477", 
+          "message": "'fwprintf' : format string '%S' requires an argument of type 'char *', but variadic argument 2 has type 'wchar_t *'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }, 
+        {
+          "column": null, 
+          "line": 1454, 
+          "flag": "C4018", 
+          "message": "'>': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }, 
+        {
+          "column": null, 
+          "line": 1448, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }, 
+        {
+          "column": null, 
+          "line": 1444, 
+          "flag": "C4018", 
+          "message": "'>': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }, 
+        {
+          "column": null, 
+          "line": 3378, 
+          "flag": "C4133", 
+          "message": "'=': incompatible types - from 'cairo_surface_t *' to 'cairo_image_surface_t *'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }, 
+        {
+          "column": null, 
+          "line": 3808, 
+          "flag": "C4133", 
+          "message": "'initializing': incompatible types - from 'cairo_status_t (__cdecl *)(cairo_surface_t *,cairo_operator_t,const cairo_pattern_t *,const cairo_pattern_t *,cairo_clip_t *)' to 'cairo_int_status_t (__cdecl *)(void *,cairo_operator_t,const cairo_pattern_t *,const cairo_pattern_t *,cairo_clip_t *)'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }, 
+        {
+          "column": null, 
+          "line": 3387, 
+          "flag": "C4133", 
+          "message": "'function': incompatible types - from 'cairo_image_surface_t *' to 'cairo_surface_t *'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }, 
+        {
+          "column": null, 
+          "line": 508, 
+          "flag": "C4133", 
+          "message": "'=': incompatible types - from 'cairo_surface_t *' to 'cairo_image_surface_t *'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }, 
+        {
+          "column": null, 
+          "line": 3388, 
+          "flag": "C4133", 
+          "message": "'function': incompatible types - from 'cairo_image_surface_t *' to 'cairo_surface_t *'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }, 
+        {
+          "column": null, 
+          "line": 1021, 
+          "flag": "C4133", 
+          "message": "'function': incompatible types - from 'cairo_surface_t *' to 'cairo_image_surface_t *'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }, 
+        {
+          "column": null, 
+          "line": 3425, 
+          "flag": "C4133", 
+          "message": "'function': incompatible types - from 'cairo_image_surface_t *' to 'cairo_surface_t *'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }, 
+        {
+          "column": null, 
+          "line": 98, 
+          "flag": "C4477", 
+          "message": "'fwprintf' : format string '%s' requires an argument of type 'unsigned short *', but variadic argument 1 has type 'const char *'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }, 
+        {
+          "column": null, 
+          "line": 492, 
+          "flag": "C4101", 
+          "message": "'status': unreferenced local variable", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }, 
+        {
+          "column": null, 
+          "line": 3808, 
+          "flag": "C4133", 
+          "message": "'initializing': incompatible types - from 'cairo_status_t (__cdecl *)(cairo_surface_t *,cairo_operator_t,const cairo_pattern_t *,cairo_clip_t *)' to 'cairo_int_status_t (__cdecl *)(void *,cairo_operator_t,const cairo_pattern_t *,cairo_clip_t *)'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }, 
+        {
+          "column": null, 
+          "line": 3808, 
+          "flag": "C4133", 
+          "message": "'initializing': incompatible types - from 'cairo_status_t (__cdecl *)(cairo_surface_t *,cairo_operator_t,const cairo_pattern_t *,cairo_path_fixed_t *,cairo_fill_rule_t,double,cairo_antialias_t,cairo_clip_t *)' to 'cairo_int_status_t (__cdecl *)(void *,cairo_operator_t,const cairo_pattern_t *,cairo_path_fixed_t *,cairo_fill_rule_t,double,cairo_antialias_t,cairo_clip_t *)'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }, 
+        {
+          "column": null, 
+          "line": 1438, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-win32-surface.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\graphite2\\src\\Decompressor.cpp": {
+      "hash": "5940595d1c6a78eef15a498c66149f602c1f6ac9", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 109, 
+          "flag": "C4018", 
+          "message": "'>': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\graphite2\\src\\Decompressor.cpp"
+        }
+      ]
+    }, 
+    "d:\\projects\\danknetexplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-wideint-private.h": {
+      "hash": "a8eb6138cca0a3f4851267d0ecb27896c70f67e3", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 145, 
+          "flag": "C4146", 
+          "message": "unary minus operator applied to unsigned type, result still unsigned", 
+          "filename": "d:\\projects\\danknetexplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-wideint-private.h"
+        }, 
+        {
+          "column": null, 
+          "line": 149, 
+          "flag": "C4146", 
+          "message": "unary minus operator applied to unsigned type, result still unsigned", 
+          "filename": "d:\\projects\\danknetexplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-wideint-private.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\libpixman\\src\\pixman-implementation.c": {
+      "hash": "39772e77a37c57fc9a76715f32649c96b7043c43", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 223, 
+          "flag": "C4047", 
+          "message": "'=': 'pixman_combine_32_func_t' differs in levels of indirection from 'pixman_combine_32_func_t *'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\libpixman\\src\\pixman-implementation.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\net\\transport_addr_reg.c": {
+      "hash": "18ea7b787bba15c1cb29b44571652e1c302e9a34", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 141, 
+          "flag": "C4996", 
+          "message": "'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\net\\transport_addr_reg.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\output_mixer.h": {
+      "hash": "f413447eb536d9f4f4b3143ca421dbc942b13ff6", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 112, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::OutputMixer::RecordNotification': virtual function overrides 'webrtc::FileCallback::RecordNotification', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\output_mixer.h"
+        }, 
+        {
+          "column": null, 
+          "line": 115, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::OutputMixer::RecordFileEnded': virtual function overrides 'webrtc::FileCallback::RecordFileEnded', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\output_mixer.h"
+        }, 
+        {
+          "column": null, 
+          "line": 110, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::OutputMixer::PlayNotification': virtual function overrides 'webrtc::FileCallback::PlayNotification', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\output_mixer.h"
+        }, 
+        {
+          "column": null, 
+          "line": 90, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::OutputMixer::NewMixedAudio': virtual function overrides 'webrtc::AudioMixerOutputReceiver::NewMixedAudio', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\output_mixer.h"
+        }, 
+        {
+          "column": null, 
+          "line": 107, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::OutputMixer::MixedAudioLevel': virtual function overrides 'webrtc::AudioMixerStatusReceiver::MixedAudioLevel', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\output_mixer.h"
+        }, 
+        {
+          "column": null, 
+          "line": 114, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::OutputMixer::PlayFileEnded': virtual function overrides 'webrtc::FileCallback::PlayFileEnded', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\output_mixer.h"
+        }, 
+        {
+          "column": null, 
+          "line": 102, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::OutputMixer::VADPositiveParticipants': virtual function overrides 'webrtc::AudioMixerStatusReceiver::VADPositiveParticipants', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\output_mixer.h"
+        }, 
+        {
+          "column": null, 
+          "line": 97, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::OutputMixer::MixedParticipants': virtual function overrides 'webrtc::AudioMixerStatusReceiver::MixedParticipants', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\output_mixer.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\ots\\src\\cff.cc": {
+      "hash": "d661b5b30fc9c0dfc6d868768b671e72702a6faf", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 548, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\ots\\src\\cff.cc"
+        }, 
+        {
+          "column": null, 
+          "line": 1314, 
+          "flag": "C4018", 
+          "message": "'>': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\ots\\src\\cff.cc"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\common_audio\\resampler\\sinc_resampler.cc": {
+      "hash": "a2a7972a50de3fc115e8a3846318d1cd23b7431e", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 86, 
+          "flag": "C4005", 
+          "message": "'_USE_MATH_DEFINES': macro redefinition", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\common_audio\\resampler\\sinc_resampler.cc"
+        }
+      ]
+    }, 
+    "d:\\projects\\danknetexplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairoint.h": {
+      "hash": "ee15551d1c7140b6928d6271c43fa0fa31c37d8a", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 31, 
+          "flag": "C4005", 
+          "message": "'_USE_MATH_DEFINES': macro redefinition", 
+          "filename": "d:\\projects\\danknetexplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairoint.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nrappkit\\src\\registry\\registry_local.c": {
+      "hash": "d61b26955799eac06e3184588c2a2b398ef66152", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 983, 
+          "flag": "C4005", 
+          "message": "'NRREGSET': macro redefinition", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nrappkit\\src\\registry\\registry_local.c"
+        }, 
+        {
+          "column": null, 
+          "line": 890, 
+          "flag": "C4005", 
+          "message": "'NRREGGET': macro redefinition", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nrappkit\\src\\registry\\registry_local.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\transmit_mixer.h": {
+      "hash": "587cc9d2623587fb8308295b1b5911a3c3b3f340", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 151, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::TransmitMixer::PlayFileEnded': virtual function overrides 'webrtc::FileCallback::PlayFileEnded', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\transmit_mixer.h"
+        }, 
+        {
+          "column": null, 
+          "line": 148, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::TransmitMixer::RecordNotification': virtual function overrides 'webrtc::FileCallback::RecordNotification', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\transmit_mixer.h"
+        }, 
+        {
+          "column": null, 
+          "line": 153, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::TransmitMixer::RecordFileEnded': virtual function overrides 'webrtc::FileCallback::RecordFileEnded', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\transmit_mixer.h"
+        }, 
+        {
+          "column": null, 
+          "line": 145, 
+          "flag": "C4373", 
+          "message": "'webrtc::voe::TransmitMixer::PlayNotification': virtual function overrides 'webrtc::FileCallback::PlayNotification', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\voice_engine\\transmit_mixer.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libsoundtouch\\src\\InterpolateShannon.cpp": {
+      "hash": "8e5a9eab2f56c85ad2d3c735fb507520ac0f5b60", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 75, 
+          "flag": "C4005", 
+          "message": "'PI': macro redefinition", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libsoundtouch\\src\\InterpolateShannon.cpp"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-d2d-surface.cpp": {
+      "hash": "34ae51f1fe061743789e09625417c18f0aa3be65", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 2993, 
+          "flag": "C4838", 
+          "message": "conversion from 'UINT32' to 'int' requires a narrowing conversion", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-d2d-surface.cpp"
+        }, 
+        {
+          "column": null, 
+          "line": 2536, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-d2d-surface.cpp"
+        }, 
+        {
+          "column": null, 
+          "line": 2777, 
+          "flag": "C4838", 
+          "message": "conversion from 'UINT' to 'int' requires a narrowing conversion", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-d2d-surface.cpp"
+        }
+      ]
+    }, 
+    "d:\\projects\\danknetexplorer\\dne2\\platform\\js\\src\\ctypes\\libffi\\src\\dlmalloc.c": {
+      "hash": "6566af4073167816a3fa6310ade5329524663f63", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 447, 
+          "flag": "C4005", 
+          "message": "'WIN32_LEAN_AND_MEAN': macro redefinition", 
+          "filename": "d:\\projects\\danknetexplorer\\dne2\\platform\\js\\src\\ctypes\\libffi\\src\\dlmalloc.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-surface.c": {
+      "hash": "567408ab513ee3483d26cda54ec340a07ed6b051", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 1431, 
+          "flag": "C4047", 
+          "message": "'=': 'volatile char' differs in levels of indirection from 'volatile char *'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\cairo\\src\\cairo-surface.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libvorbis\\lib\\vorbis_psy.c": {
+      "hash": "91ecc192baef57a8518be809a19132f9c9dd933a", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 290, 
+          "flag": "C4305", 
+          "message": "'=': truncation from 'double' to 'float'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libvorbis\\lib\\vorbis_psy.c"
+        }, 
+        {
+          "column": null, 
+          "line": 291, 
+          "flag": "C4305", 
+          "message": "'=': truncation from 'double' to 'float'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libvorbis\\lib\\vorbis_psy.c"
+        }, 
+        {
+          "column": null, 
+          "line": 814, 
+          "flag": "C4305", 
+          "message": "'=': truncation from 'double' to 'float'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libvorbis\\lib\\vorbis_psy.c"
+        }, 
+        {
+          "column": null, 
+          "line": 801, 
+          "flag": "C4305", 
+          "message": "'=': truncation from 'double' to 'float'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\libvorbis\\lib\\vorbis_psy.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\audio_processing\\beamformer\\nonlinear_beamformer.cc": {
+      "hash": "8b0a49b462e392eb1288dac98a7c743e774bf2c5", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 11, 
+          "flag": "C4005", 
+          "message": "'_USE_MATH_DEFINES': macro redefinition", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\audio_processing\\beamformer\\nonlinear_beamformer.cc"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\stun_client_ctx.c": {
+      "hash": "302464072ba61154e2400b9af40bbcfbad17bb62", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 279, 
+          "flag": "C4018", 
+          "message": "'>': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\stun_client_ctx.c"
+        }, 
+        {
+          "column": null, 
+          "line": 402, 
+          "flag": "C4018", 
+          "message": "'>=': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\stun_client_ctx.c"
+        }, 
+        {
+          "column": null, 
+          "line": 246, 
+          "flag": "C4018", 
+          "message": "'>=': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\stun\\stun_client_ctx.c"
+        }
+      ]
+    }, 
+    "d:\\projects\\danknetexplorer\\dne2\\platform\\media\\mtransport\\third_party\\nicer\\src\\net\\nr_socket.h": {
+      "hash": "17a016f07895343d04fb97debba4a10a3a0e392f", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 52, 
+          "flag": "C4005", 
+          "message": "'restrict': macro redefinition", 
+          "filename": "d:\\projects\\danknetexplorer\\dne2\\platform\\media\\mtransport\\third_party\\nicer\\src\\net\\nr_socket.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\misc\\prdtoa.c": {
+      "hash": "110c988732f9747c93e329b9bb8c29be5c9d380e", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 3024, 
+          "flag": "C4554", 
+          "message": "'<<': check operator precedence for possible error; use parentheses to clarify precedence", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\misc\\prdtoa.c"
+        }, 
+        {
+          "column": null, 
+          "line": 2767, 
+          "flag": "C4018", 
+          "message": "'<=': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\misc\\prdtoa.c"
+        }, 
+        {
+          "column": null, 
+          "line": 1373, 
+          "flag": "C4554", 
+          "message": "'<<': check operator precedence for possible error; use parentheses to clarify precedence", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\misc\\prdtoa.c"
+        }, 
+        {
+          "column": null, 
+          "line": 1281, 
+          "flag": "C4554", 
+          "message": "'>>': check operator precedence for possible error; use parentheses to clarify precedence", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\misc\\prdtoa.c"
+        }, 
+        {
+          "column": null, 
+          "line": 1283, 
+          "flag": "C4554", 
+          "message": "'<<': check operator precedence for possible error; use parentheses to clarify precedence", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\misc\\prdtoa.c"
+        }, 
+        {
+          "column": null, 
+          "line": 1288, 
+          "flag": "C4554", 
+          "message": "'>>': check operator precedence for possible error; use parentheses to clarify precedence", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\misc\\prdtoa.c"
+        }, 
+        {
+          "column": null, 
+          "line": 3025, 
+          "flag": "C4554", 
+          "message": "'<<': check operator precedence for possible error; use parentheses to clarify precedence", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\misc\\prdtoa.c"
+        }, 
+        {
+          "column": null, 
+          "line": 1283, 
+          "flag": "C4554", 
+          "message": "'>>': check operator precedence for possible error; use parentheses to clarify precedence", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\misc\\prdtoa.c"
+        }, 
+        {
+          "column": null, 
+          "line": 3025, 
+          "flag": "C4554", 
+          "message": "'>>': check operator precedence for possible error; use parentheses to clarify precedence", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\misc\\prdtoa.c"
+        }, 
+        {
+          "column": null, 
+          "line": 2068, 
+          "flag": "C4554", 
+          "message": "'<<': check operator precedence for possible error; use parentheses to clarify precedence", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\misc\\prdtoa.c"
+        }, 
+        {
+          "column": null, 
+          "line": 1290, 
+          "flag": "C4554", 
+          "message": "'>>': check operator precedence for possible error; use parentheses to clarify precedence", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\nsprpub\\pr\\src\\misc\\prdtoa.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\ice\\ice_parser.c": {
+      "hash": "eb7c3452744740061e7b478c0aa0bc33e8cdd7b0", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 465, 
+          "flag": "C4996", 
+          "message": "'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\mtransport\\third_party\\nICEr\\src\\ice\\ice_parser.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\other-licenses\\snappy\\src\\snappy.cc": {
+      "hash": "82497baad914bed298e54ff5b21dd59e4946d830", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 1248, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\other-licenses\\snappy\\src\\snappy.cc"
+        }, 
+        {
+          "column": null, 
+          "line": 1339, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\other-licenses\\snappy\\src\\snappy.cc"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\libpixman\\src\\pixman-radial-gradient.c": {
+      "hash": "ec08d554934a0d20ffdb86550420e6a5e0961316", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 493, 
+          "flag": "C4133", 
+          "message": "'initializing': incompatible types - from 'uint32_t *' to 'uint16_t *'", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\cairo\\libpixman\\src\\pixman-radial-gradient.c"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\desktop_capture\\desktop_device_info.cc": {
+      "hash": "c079d1f6cf64fd1ffda6e3bba32c7189798bf9e4", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 228, 
+          "flag": "C4018", 
+          "message": "'>=': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\desktop_capture\\desktop_device_info.cc"
+        }, 
+        {
+          "column": null, 
+          "line": 188, 
+          "flag": "C4018", 
+          "message": "'>=': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\desktop_capture\\desktop_device_info.cc"
+        }, 
+        {
+          "column": null, 
+          "line": 207, 
+          "flag": "C4018", 
+          "message": "'>=': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\desktop_capture\\desktop_device_info.cc"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\extensions\\spellcheck\\hunspell\\src\\hunspell.cxx": {
+      "hash": "151411485f803d2147a2f5077d79986d9d5e6043", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 1151, 
+          "flag": "C4804", 
+          "message": "'>': unsafe use of type 'bool' in operation", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\extensions\\spellcheck\\hunspell\\src\\hunspell.cxx"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\audio_coding\\main\\acm2\\audio_coding_module_impl.h": {
+      "hash": "77f56df1ca5ce0cd703811f51036576dbb4b339a", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 103, 
+          "flag": "C4373", 
+          "message": "'webrtc::acm2::AudioCodingModuleImpl::SetVAD': virtual function overrides 'webrtc::AudioCodingModule::SetVAD', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\audio_coding\\main\\acm2\\audio_coding_module_impl.h"
+        }, 
+        {
+          "column": null, 
+          "line": 65, 
+          "flag": "C4373", 
+          "message": "'webrtc::acm2::AudioCodingModuleImpl::SetReceivedEstimatedBandwidth': virtual function overrides 'webrtc::AudioCodingModule::SetReceivedEstimatedBandwidth', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\audio_coding\\main\\acm2\\audio_coding_module_impl.h"
+        }, 
+        {
+          "column": null, 
+          "line": 208, 
+          "flag": "C4373", 
+          "message": "'webrtc::acm2::AudioCodingModuleImpl::ReplaceInternalDTXWithWebRtc': virtual function overrides 'webrtc::AudioCodingModule::ReplaceInternalDTXWithWebRtc', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\audio_coding\\main\\acm2\\audio_coding_module_impl.h"
+        }, 
+        {
+          "column": null, 
+          "line": 182, 
+          "flag": "C4373", 
+          "message": "'webrtc::acm2::AudioCodingModuleImpl::SetPlayoutMode': virtual function overrides 'webrtc::AudioCodingModule::SetPlayoutMode', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\audio_coding\\main\\acm2\\audio_coding_module_impl.h"
+        }, 
+        {
+          "column": null, 
+          "line": 171, 
+          "flag": "C4373", 
+          "message": "'webrtc::acm2::AudioCodingModuleImpl::SetDtmfPlayoutStatus': virtual function overrides 'webrtc::AudioCodingModule::SetDtmfPlayoutStatus', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\audio_coding\\main\\acm2\\audio_coding_module_impl.h"
+        }, 
+        {
+          "column": null, 
+          "line": 148, 
+          "flag": "C4373", 
+          "message": "'webrtc::acm2::AudioCodingModuleImpl::IncomingPayload': virtual function overrides 'webrtc::AudioCodingModule::IncomingPayload', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\media\\webrtc\\trunk\\webrtc\\modules\\audio_coding\\main\\acm2\\audio_coding_module_impl.h"
+        }
+      ]
+    }, 
+    "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\ots\\src\\cff_charstring.cc": {
+      "hash": "8e00f48168ca78b96f0d63d3bf77b354de8b148a", 
+      "warnings": [
+        {
+          "column": null, 
+          "line": 398, 
+          "flag": "C4018", 
+          "message": "'<': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\ots\\src\\cff_charstring.cc"
+        }, 
+        {
+          "column": null, 
+          "line": 393, 
+          "flag": "C4018", 
+          "message": "'>=': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\ots\\src\\cff_charstring.cc"
+        }, 
+        {
+          "column": null, 
+          "line": 376, 
+          "flag": "C4018", 
+          "message": "'>=': signed/unsigned mismatch", 
+          "filename": "d:\\Projects\\DanknetExplorer\\dne2\\platform\\gfx\\ots\\src\\cff_charstring.cc"
+        }
+      ]
+    }
+  }
+}

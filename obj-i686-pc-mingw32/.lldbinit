@@ -1,0 +1,1 @@
+script topsrcdir = "d:/Projects/DanknetExplorer/dne2/platform"; lldb.debugger.HandleCommand("command source -s true '%s'" % os.path.join(topsrcdir, ".lldbinit"))
